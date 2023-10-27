@@ -15,7 +15,7 @@ class Traine(Employee):
         super().numberofworkinghours()
         
 
-
+ 
 employee = Employee()
 employee.numberofworkinghours()
 print("number of working hours is :", end= " ")
