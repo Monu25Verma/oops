@@ -3,7 +3,7 @@ from abc import ABCMeta, abstractmethod
 
 class Shape(metaclass = ABCMeta):
     @abstractmethod
-    def area(selmetf):
+    def area(self):
         return 0
     
 class Square(Shape):

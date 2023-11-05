@@ -1,14 +1,16 @@
 #checkt the employee wheater they achievd weekly target
 
 class Employee:
-    name= "Monu"
+    name= "Monu" #global variable
     salesAchieve = 7
     designation = "Engineer"
     
     def __init__(self):
-        print("inside constructor")
+        print("inside constructor/intializer")
     
     def achieve_target(self):          # default parameter is used to access to attribute of class
+        i = 10  #local variable
+        print(i)
         if self.salesAchieve >= 4:
             print("target has achieve successfully")
         else:

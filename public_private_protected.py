@@ -12,5 +12,3 @@ car = Car()
 print("public no of attribute:", car.number_of_wheel)
 Buy_car = buy_car()
 print("private your fav car is : ", car._Car__fav_brand)
-
-
